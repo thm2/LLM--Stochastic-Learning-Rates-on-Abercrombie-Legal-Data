@@ -9,7 +9,7 @@ The goal is to compare the performance of various algorithms (e.g. ADAM, ADAMW, 
 
 //<alt="java 8 and prio java 8  array review example" src="https://github.com/thm2/LLM--Stochastic-Learning-Rates-on-Abercrombie-Legal-Data/tree/main/preliminary_results/ADAM/slro_losses.png?raw=true">
 
-![ezcv logo](https://raw.githubusercontent.com//thm2/LLM--Stochastic-Learning-Rates-on-Abercrombie-Legal-Data/master/.github/logo.png)
+![ezcv logo](https://raw.githubusercontent.com//thm2/thm2/LLM--Stochastic-Learning-Rates-on-Abercrombie-Legal-Data/tree/main/preliminary_results/ADAM/slro_losses.png)
 
 
 
