@@ -6,7 +6,7 @@ The experiments will be conducted on legal data and tasks of [LegalBench](https:
 
 The goal is to compare the performance of various algorithms (e.g. ADAM, ADAMW, SGD, etc.) when using stochastic learning rates versus the traditional deterministic learning rates. The results demonstrate that algorithms equipped with a stochastic learning rate yield better performance even when using legal and comparable, if not better testing performance. Even though the training data is disproportionally fewer than the testing data, the algorithms equipped with a stochastic learning rate were able to outperform their deterministic-learning-rate counterparts:
 
-![plot](https://github.com/thm2/LLM--Stochastic-Learning-Rates-on-Abercrombie-Legal-Data/tree/main/preliminary_results/slro_losses.png)
+![plot](https://github.com/thm2/LLM--Stochastic-Learning-Rates-on-Abercrombie-Legal-Data/tree/main/preliminary_results/ADAMW/slro_losses.png)
 
 
 
