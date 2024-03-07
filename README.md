@@ -1,5 +1,10 @@
 # LLM--Stochastic-Learning-Rates-on-Abercrombie-Legal-Data
 
-This project experimentally couples LLMs and stochastic learning rates with legal data, and the Abercrombie task in specific (see the [LegalBench](https://github.com/HazyResearch/legalbench) website for details).
+This project experimentally couples LLMs and stochastic learning rates, see [1](https://arxiv.org/pdf/2110.10710.pdf) or [work 2](https://ieeexplore.ieee.org/abstract/document/9809984) for details.
 
-For more information on stochastic learning rate schemes see [1](https://arxiv.org/pdf/2110.10710.pdf) or [2]([https://arxiv.org/pdf/2110.10710.pdf](https://ieeexplore.ieee.org/abstract/document/9809984)https://ieeexplore.ieee.org/abstract/document/9809984) 
+The experiments will be conducted on legal data. In specific, the task will be to classify a particular mark (e.g. a name for a product or service) correctly. From the [Abercrombie Task](https://github.com/HazyResearch/legalbench/tree/main/tasks/abercrombie) of [LegalBench](https://github.com/HazyResearch/legalbench):
+A particular mark (e.g. a name for a product or service) is only eligible for trademark protection if it is considered to be distinctive. In assessing whether a mark is distinctive, lawyers and judges follow the framework set out in the case Abercrombie & Fitch Co. v. Hunting World, Inc., which enumerates 5 categories of distinctiveness. These categories characterize the relationship between the dictionary definition of the term used in the mark, and the service or product it is being attached to.
+
+The goal is to compare the performance of various algorithms (e.g. ADAM, ADAMW, SGD, etc.) when using stochastic learning rates versus the traditional deterministic learning rates. The results demonstrate that algorithms equipped with a stochastic learning rate yield better performance even when using legal and comparable, if not better testing performance. Even though the training data is disproportionally fewer than the testing data, the algorithms equipped with a stochastic learning rate were able to outperform their deterministic-learning-rate counterparts:
+
+
